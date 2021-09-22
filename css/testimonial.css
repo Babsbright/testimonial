@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', Verdana;
+    background: #edf2f4;
+}
+.triangle{
+    height: 400px;
+    width: 500px;
+    background:white;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ef233c;
+    width: 200px!important;
+    height: 250px;
+    border-radius: 15px;
+    transform: rotate(195deg);
+    transition: ease 1s;
+}
+.triangle-2{
+    height: 400px;
+    width: 500px;
+    background:white;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ef233c;
+    width: 200px!important;
+    height: 250px;
+    border-radius: 15px;
+    transform: rotate(-195deg);
+    transition: ease 1.5s;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#dfe4ec;
+    width: 300px!important;
+    height: 550px;
+    border-radius: 15px;
+    
+    
+}
+
+#content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   
+}
+
+#prev, #next{
+    width:30px;
+    height: 30px;
+    padding: 3px;
+    border: none;
+    border-radius: 10px;
+    background: #ef233c;
+    margin: 25px;
+    color: #fff;
+    font-size: 13px;
+    outline: none;
+}
+#prev:hover, #next:hover{
+background: white;
+color: #ef233c;
+transition: ease .5s;
+}
+span{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+h4{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #ef233c;
+    font-size: 17px!important
+
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #2b2d42;
+    font-size: 20px!important;
+    
+}
+p{
+    color: #2b2d42;
+    font-size: 14px;
+    transition: ease  500ms;
+}
+p:hover{
+    transition: ease  500ms;
+    color: rgb(180, 178, 178);
+}
+
+
+@media screen and (min-width:450px) {
+
+    
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background:#dfe4ec;
+        width: 300px!important;
+        height: 550px;
+        border-radius: 15px;
+        
+        
+    }
+}
+
+
+@media screen and (min-width:750px) {
+    .triangle{
+        height: 400px;
+        width: 500px;
+        background:white;
+        position: absolute;
+        top: 5%;
+        left:45%;
+        transform: translate(-50%, -50%);
+        border: 2px solid #ef233c;
+        width: 200px!important;
+        height: 550px;
+        border-radius: 15px;
+        transform: rotate(55deg);
+        
+    }
+    .triangle-2{
+        height: 400px;
+        width: 500px;
+        background:white;
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        border: 2px solid #ef233c;
+        width: 200px!important;
+        height: 550px;
+        border-radius: 15px;
+        transform: rotate(-55deg);
+        
+    }
+    
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background:#dfe4ec;
+        width: 300px!important;
+        height: 550px;
+        border-radius: 15px;
+        
+        
+    }
+}
+
